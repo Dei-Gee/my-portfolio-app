@@ -1,0 +1,25 @@
+.home-container{
+    margin: 0 auto;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
