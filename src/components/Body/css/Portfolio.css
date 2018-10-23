@@ -1,0 +1,66 @@
+@font-face{
+    font-family: Trajan Pro;
+    src: url('./fonts/TrajanPro-Regular.ttf');
+}
+
+
+.portfolio-container{
+    margin: 0 auto;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/main-background-2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.portfolio-container .hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 13.5%;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.design{
+    height: 50%;
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: left;
+}
+
+.design > h1{
+    color: rgb(153,0,0);
+    font-family: Trajan Pro;
+}
+
+.development{
+    height: 50%;
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: left;
+}
+
+.development > h1{
+    color: rgb(153,0,0);
+    font-family: Trajan Pro;
+}
+

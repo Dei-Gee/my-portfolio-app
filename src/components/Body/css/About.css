@@ -1,0 +1,234 @@
+@font-face{
+    font-family: Trajan Pro;
+    src: url('./fonts/TrajanPro-Regular.ttf');
+}
+
+.about-container{
+    margin: 0 auto;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/blacktree.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.about-hero-container{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 73%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+    left: 10.5%;
+    box-sizing: border-box;
+}
+
+.mini-slideshow{
+    width: 17%;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    /*box-shadow: 5px 5px 10px gray;*/
+}
+
+.mini-slideshow > img {
+    height: 80%;
+    width: 100%;
+    border-radius: 5%;
+    border: solid 2px rgba(153, 0, 0, 0.301);
+}
+
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+
+[className*="info-"]{
+    width: 100%;
+    border: solid 1px green;
+}
+
+.info-one{
+    font-family: Trajan Pro;
+    padding: 0;
+    padding: .5%;
+}
+
+.info-one > span{
+    font-size: 2.7vw;
+    font-weight: 900;
+    color: rgb(51, 51, 51);
+    padding: .5%;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 35%;
+}
+
+.info-two{
+    padding: 1.0%;
+}
+
+.info-two > span {
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+    text-align: left;
+}
+
+.info-three{
+    padding: 1.0%;
+}
+
+.info-three > span {
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    text-align: left;
+}
+
+.info-four{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.info-four > a > img{
+    width: 3%;
+    height: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.info-four > a {
+    margin-left: 2%;
+    margin-right: 2%;
+    transition: 300ms;
+}
+
+.info-four > a:hover {
+    margin-left: 2%;
+    margin-right: 2%;
+    transition: 300ms;
+    transform: scale(.8);
+}
+
+.info-four > a:first-child
+{
+    margin-left: 0;
+}
+
+#logo1
+{
+    width: 2.3vw;
+    height: 4.0vh;
+}
+
+.info-four > a:nth-child(2)
+{
+    position: relative;
+    top: -.2vh;
+}
+
+#logo2{
+    width: 2.0vw;
+    height: 3.8vh;
+
+}
+
+#logo3{
+    width: 2.3vw;
+    height: 4.0vh;
+
+}
+
+.info-four > a:nth-child(3)
+{
+    position: relative;
+    top: -.0vh;
+}
+
+.loading-screen{
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+.sk-cube-grid {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: calc(5vh - 60px);
+    left: calc(50vw - 60px);
+  }
+
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: rgb(153,0,0);
+    float: left;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  }
+
+  .sk-cube-grid .sk-cube1 {
+    animation-delay: 0.2s;
+  }
+
+  .sk-cube-grid .sk-cube2 {
+    animation-delay: 0.3s;
+  }
+
+  .sk-cube-grid .sk-cube3 {
+    animation-delay: 0.4s;
+  }
+
+  .sk-cube-grid .sk-cube4 {
+    animation-delay: 0.1s;
+  }
+
+  .sk-cube-grid .sk-cube5 {
+    animation-delay: 0.2s;
+  }
+
+  .sk-cube-grid .sk-cube6 {
+    animation-delay: 0.3s;
+  }
+
+  .sk-cube-grid .sk-cube7 {
+    animation-delay: 0s;
+  }
+
+  .sk-cube-grid .sk-cube8 {
+    animation-delay: 0.1s;
+  }
+
+  .sk-cube-grid .sk-cube9 {
+    animation-delay: 0.2s;
+  }
+
+  @keyframes sk-cubeGridScaleDelay {
+    0%,
+    70%,
+    100% {
+      transform: scale3D(1, 1, 1);
+    }
+    35% {
+      transform: scale3D(0, 0, 1);
+    }
+  }

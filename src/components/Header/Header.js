@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import logo from '../../logo.svg';
+//import logo from '../../logo.svg';
 import './Header.css';
+import Logo from '../Body/images/logo alone.png';
 import {NavLink} from 'react-router-dom';
 
 class Header extends Component{
@@ -8,7 +9,7 @@ class Header extends Component{
         return(
             <div className="header-container">
                 <div className="logo">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <NavLink to="/" title="dejiojo.me"><img src={Logo} className="deji-logo" alt="logo" /></NavLink>
                 </div>
                 <div className="nav-container">
                     <div className="links-container">
@@ -25,7 +26,7 @@ class Header extends Component{
                             <div className="bottom"></div>
                         </div>
                         <div className="nav-div" id="last">
-                            <NavLink className="links" to="/">Contact</NavLink>
+                            <NavLink className="links" to="/contact">Contact</NavLink>
                             <div className="bottom"></div>
                         </div>
                     </div>
