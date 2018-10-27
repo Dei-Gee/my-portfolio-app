@@ -7,16 +7,16 @@ class Portfolio extends Component {
     render(){
         setTimeout(() => document.getElementById("loadingScreen").style.display = "none", 2000);
         return(
-            <div classname="portfolio-wrapper">
+            <div className="portfolio-wrapper">
                 <div className="portfolio-container">
                     <div className="hero-container">
                         <div className="content">
                             <div className="design">
-                                <h1>Design</h1>
+                                <h1>Design<div className="arrow-right"></div></h1>
                             </div>
 
                             <div className="development">
-                                <h1>Development</h1>
+                                <h1>Development<div className="arrow-right"></div></h1>
                             </div>
                         </div>
                     </div>

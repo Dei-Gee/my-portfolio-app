@@ -50,7 +50,28 @@
 .design > h1{
     color: rgb(153,0,0);
     font-family: Trajan Pro;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 100ms;
 }
+
+.design > h1 > div.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: .75rem solid transparent;
+    border-bottom: .75rem solid transparent;
+    border-left: .75rem solid rgb(153,0,0);
+    position: relative;
+    top: .5rem;
+    left: 1.0rem;
+  }
+
+  .design > h1:hover > div.arrow-right {
+      left: 1.3rem;
+      transition: 300ms;
+  }
 
 .development{
     height: 50%;
@@ -62,5 +83,30 @@
 .development > h1{
     color: rgb(153,0,0);
     font-family: Trajan Pro;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.development > h1 > div.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: .75rem solid transparent;
+    border-bottom: .75rem solid transparent;
+    border-left: .75rem solid rgb(153,0,0);
+    position: relative;
+    top: .55rem;
+    left: 1.0rem;
+}
+
+.development > h1:hover > div.arrow-right {
+    left: 1.3rem;
+    transition: 300ms;
+}
+
+.development > h1:hover {
+    transition: 100ms;
 }
 
