@@ -58,7 +58,7 @@ class About extends Component {
                             <div className="info-three">
                                 <span>
                                     I am a Vancouver based Freelancer with a passion for web development and graphic design. 
-                                    I love biking, <br />archery, history and technology. Find out more about me by following me on social media.
+                                    I love cycling, archery, history and technology. Find out more about me by following me on social media.
                                 </span>
                             </div>
                             <div className="info-four">

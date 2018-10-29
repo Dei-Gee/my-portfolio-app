@@ -22,7 +22,7 @@
     text-align: left;
     display: flex;
     flex-direction: row;
-    width: 73%;
+    width: 53rem;
     height: 30%;
     position: absolute;
     top: 30%;
@@ -31,7 +31,8 @@
 }
 
 .mini-slideshow{
-    width: 17%;
+    width: 13rem;
+    height: auto;
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
@@ -43,7 +44,6 @@
     height: 80%;
     width: 100%;
     border-radius: 5%;
-    border: solid 2px rgba(153, 0, 0, 0.301);
 }
 
 .info{
@@ -95,19 +95,20 @@
     font-size: 1.1vw;
     font-weight: 400;
     color: rgb(85, 85, 85);
-    text-align: left;
+    text-align: justify;
 }
 
 .info-four{
-    padding: 1%;
+    padding: 0%;
     display: flex;
     flex-direction: row;
     background-color: transparent;
+    margin-top: 1vw;
 }
 
 .info-four > a > img{
-    width: 3%;
-    height: 3%;
+    width: 6%;
+    height: auto;
     margin-left: 15%;
     margin-right: 15%;
     position: relative;
@@ -133,8 +134,8 @@
 
 #logo1
 {
-    width: 2.3vw;
-    height: 4.0vh;
+    width: 2.5vw;
+    height: auto;
     filter: grayscale(100);
     opacity: .75;
     transition: 300ms;
@@ -153,8 +154,8 @@
 }
 
 #logo2{
-    width: 2.0vw;
-    height: 3.8vh;
+    width: 2.5vw;
+    height: auto;
     filter: grayscale(100);
     opacity: .75;
     transition: 300ms;
@@ -167,8 +168,8 @@
 }
 
 #logo3{
-    width: 2.3vw;
-    height: 4.0vh;
+    width: 2.5vw;
+    height: auto;
     filter: grayscale(100);
     opacity: .75;
     transition: 300ms;
