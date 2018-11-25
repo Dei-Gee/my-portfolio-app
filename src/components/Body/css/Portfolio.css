@@ -60,11 +60,12 @@
 .design > h1 > div.arrow-right {
     width: 0; 
     height: 0; 
-    border-top: .75rem solid transparent;
-    border-bottom: .75rem solid transparent;
-    border-left: .75rem solid rgb(153,0,0);
+    border-top: 1.0rem solid transparent;
+    border-bottom: 1.0rem solid transparent;
+    border-left: 1.0rem solid rgb(153,0,0);
+    border-right: 1.0rem solid transparent;
     position: relative;
-    top: .5rem;
+    bottom: 0;
     left: 1.0rem;
   }
 
@@ -93,11 +94,12 @@
 .development > h1 > div.arrow-right {
     width: 0; 
     height: 0; 
-    border-top: .75rem solid transparent;
-    border-bottom: .75rem solid transparent;
-    border-left: .75rem solid rgb(153,0,0);
+    border-top: 1.0rem solid transparent;
+    border-bottom: 1.0rem solid transparent;
+    border-left: 1.0rem solid rgb(153,0,0);
+    border-right: 1.0rem solid transparent;
     position: relative;
-    top: .55rem;
+    top: 0;
     left: 1.0rem;
 }
 

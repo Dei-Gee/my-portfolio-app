@@ -197,11 +197,11 @@
 }
 
 .sk-cube-grid {
-    width: 60px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
     position: absolute;
-    top: calc(5vh - 60px);
-    left: calc(50vw - 60px);
+    left: 47.5vw;
+    right: 47.5vw;
   }
 
   .sk-cube-grid .sk-cube {
