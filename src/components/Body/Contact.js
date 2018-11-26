@@ -11,7 +11,12 @@ class Contact extends Component {
                 <div className="contact-container">
                     <div className="hero-container">
                         <div className="content">
-                            
+                            <div className="rowOne">
+                                deigeedesigns@gmail.com
+                            </div>
+                            <div className="rowTwo">
+                                ...or any of <span><NavLink to="/about" id="socialmedialink">my social media</NavLink></span> pages
+                            </div>
                         </div>
                     </div>
                 </div>
