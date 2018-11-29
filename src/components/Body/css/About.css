@@ -10,7 +10,7 @@
     width: 100%;
     background-image: url('../images/blacktree.png');
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-origin: border-box;
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,36 +21,41 @@
 .about-hero-container{
     text-align: left;
     display: flex;
-    flex-direction: row;
-    width: 53rem;
+    flex-direction: column;
+    width: 60vw;
     height: 30%;
     position: absolute;
-    top: 30%;
-    left: 10.5%;
+    top: 20%;
+    left: 20vw;
     box-sizing: border-box;
 }
 
 .mini-slideshow{
-    width: 13rem;
-    height: auto;
+    width: 40vw;
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
     border-radius: 5%;
+    position: relative;
+    left: 10vw;
+    right: 10vw;
     /*box-shadow: 5px 5px 10px gray;*/
 }
 
 .mini-slideshow > img {
-    height: 100%;
+    display: block;
+    height: auto;
     width: 100%;
-    border-radius: 5%;
 }
 
 .info{
-    width: 70%;
+    width: 90%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
+    padding-left: 0%;
+    position: relative;
+    top: 15%;
 }
 
 [className*="info-"]{
@@ -60,50 +65,55 @@
 
 .info-one{
     font-family: Trajan Pro;
-    padding: 0;
     padding: .5%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .info-one > span{
-    font-size: 2.7vw;
+    font-size: 3.85vw;
     font-weight: 900;
     color: rgb(153, 0, 0);
     padding: .5%;
-    text-align: left;
-    margin-left: 0;
-    margin-right: 35%;
+    text-align: center;
 }
 
 .info-two{
-    padding: 1.0%;
+    padding: 3.0%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .info-two > span {
     font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-weight: 600;
     color: rgb(75, 0, 0);
-    text-align: left;
+    text-align: center;
 }
 
 .info-three{
     padding: 1.0%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .info-three > span {
     font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
-    font-size: 1.1vw;
+    font-size: 3.1vw;
     font-weight: 400;
     color: rgb(85, 85, 85);
     text-align: justify;
 }
 
 .info-four{
-    padding: 0%;
+    padding: 15%;
     display: flex;
     flex-direction: row;
     background-color: transparent;
     margin-top: 1vw;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .info-four > a > img{
@@ -115,8 +125,8 @@
 }
 
 .info-four > a {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     transition: 300ms;
 }
 
@@ -129,12 +139,12 @@
 
 .info-four > a:first-child
 {
-    margin-left: 0;
+    margin-left: 0%;
 }
 
 #logo1
 {
-    width: 2.5vw;
+    width: 8.5vw;
     height: auto;
     filter: grayscale(100);
     opacity: .75;
@@ -154,7 +164,7 @@
 }
 
 #logo2{
-    width: 2.5vw;
+    width: 8.5vw;
     height: auto;
     filter: grayscale(100);
     opacity: .75;
@@ -168,7 +178,7 @@
 }
 
 #logo3{
-    width: 2.5vw;
+    width: 8.5vw;
     height: auto;
     filter: grayscale(100);
     opacity: .75;
@@ -185,6 +195,186 @@
 {
     position: relative;
     top: -.0vh;
+}
+
+@media only screen and (min-width: 1024px)
+{
+    .about-container {
+        background-position: bottom;
+    }
+
+    .about-hero-container{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+        height: 30%;
+        position: absolute;
+        top: 30%;
+        left: 10.5%;
+        box-sizing: border-box;
+    }
+    
+    .mini-slideshow{
+        width: 20vw;
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+        border-radius: 5%;
+        overflow: hidden;
+        position: static;
+        /*box-shadow: 5px 5px 10px gray;*/
+    }
+    
+    .mini-slideshow > img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    
+    .info{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        position: static;
+    }
+    
+    [className*="info-"]{
+        width: 100%;
+        border: solid 1px green;
+    }
+    
+    .info-one{
+        font-family: Trajan Pro;
+        padding: .5%;
+        text-align: left;
+    }
+    
+    .info-one > span{
+        font-size: 2.7vw;
+        font-weight: 900;
+        color: rgb(153, 0, 0);
+        padding: .5%;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 35%;
+    }
+    
+    .info-two{
+        padding: 1.0%;
+        text-align: left;
+    }
+    
+    .info-two > span {
+        font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+        font-weight: 600;
+        color: rgb(75, 0, 0);
+        text-align: left;
+    }
+    
+    .info-three{
+        padding: 1.0%;
+        text-align: left;
+    }
+    
+    .info-three > span {
+        font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+        font-size: 1.1vw;
+        font-weight: 400;
+        color: rgb(85, 85, 85);
+        text-align: justify;
+    }
+    
+    .info-four{
+        padding: 0%;
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        margin-top: 1vw;
+    }
+    
+    .info-four > a > img{
+        width: 6%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+        position: relative;
+    }
+    
+    .info-four > a {
+        margin-left: 2%;
+        margin-right: 2%;
+        transition: 300ms;
+    }
+    
+    .info-four > a:hover {
+        margin-left: 2%;
+        margin-right: 2%;
+        transition: 300ms;
+        /*transform: scale(.8);*/
+    }
+    
+    .info-four > a:first-child
+    {
+        margin-left: 0;
+    }
+    
+    #logo1
+    {
+        width: 2.5vw;
+        height: auto;
+        filter: grayscale(100);
+        opacity: .75;
+        transition: 300ms;
+    }
+    
+    #logo1:hover{
+        filter: grayscale(0);
+        opacity: 1;
+        transition: 300ms;
+    }
+    
+    .info-four > a:nth-child(2)
+    {
+        position: relative;
+        top: -.2vh;
+    }
+    
+    #logo2{
+        width: 2.5vw;
+        height: auto;
+        filter: grayscale(100);
+        opacity: .75;
+        transition: 300ms;
+    }
+    
+    #logo2:hover{
+        filter: grayscale(0);
+        opacity: 1;
+        transition: 300ms;
+    }
+    
+    #logo3{
+        width: 2.5vw;
+        height: auto;
+        filter: grayscale(100);
+        opacity: .75;
+        transition: 300ms;
+    }
+    
+    #logo3:hover{
+        filter: grayscale(0);
+        opacity: 1;
+        transition: 300ms;
+    }
+    
+    .info-four > a:nth-child(3)
+    {
+        position: relative;
+        top: -.0vh;
+    }
 }
 
 .loading-screen{
