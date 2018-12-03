@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './css/Portfolio.css';
 import LogoWithText from './images/dejiojo_logo.png';
 import { NavLink } from 'react-router-dom';
+import Design from './Design';
 
 class Portfolio extends Component {
     render(){
@@ -12,11 +13,11 @@ class Portfolio extends Component {
                     <div className="hero-container">
                         <div className="content">
                             <div className="design">
-                                <h1>Design<div className="arrow-right"></div></h1>
+                                <h1><NavLink to="/design" id="gallerylink">Design<div className="arrow-right"></div></NavLink></h1>
                             </div>
 
                             <div className="development">
-                                <h1>Development<div className="arrow-right"></div></h1>
+                                <h1><NavLink to="/development" id="gallerylink">Development<div className="arrow-right"></div></NavLink></h1>
                             </div>
                         </div>
                     </div>

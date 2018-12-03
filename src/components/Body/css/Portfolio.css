@@ -47,7 +47,7 @@
     text-align: left;
 }
 
-.design > h1{
+.design > h1 > #gallerylink{
     color: rgb(153,0,0);
     font-family: Trajan Pro;
     display: flex;
@@ -55,9 +55,10 @@
     overflow: hidden;
     cursor: pointer;
     transition: 100ms;
+    text-decoration: none;
 }
 
-.design > h1 > div.arrow-right {
+.design > h1 > #gallerylink > div.arrow-right {
     width: 0; 
     height: 0; 
     border-top: 1.0rem solid transparent;
@@ -69,7 +70,7 @@
     left: 1.0rem;
   }
 
-  .design > h1:hover > div.arrow-right {
+  .design > h1:hover > #gallerylink >div.arrow-right {
       left: 1.3rem;
       transition: 300ms;
   }
@@ -81,7 +82,7 @@
     text-align: left;
 }
 
-.development > h1{
+.development > h1 > #gallerylink{
     color: rgb(153,0,0);
     font-family: Trajan Pro;
     display: flex;
@@ -89,9 +90,10 @@
     overflow: hidden;
     cursor: pointer;
     transition: 100ms;
+    text-decoration: none;
 }
 
-.development > h1 > div.arrow-right {
+.development > h1 > #gallerylink > div.arrow-right {
     width: 0; 
     height: 0; 
     border-top: 1.0rem solid transparent;
@@ -103,7 +105,7 @@
     left: 1.0rem;
 }
 
-.development > h1:hover > div.arrow-right {
+.development > h1:hover > #gallerylink > div.arrow-right {
     left: 1.3rem;
     transition: 300ms;
 }
