@@ -5,7 +5,9 @@ class Footer extends Component{
     render(){
         return(
             <div className="footer-div">
-                yo
+                <div className="copytext">
+                    Deji Ojo &copy; 2018
+                </div>
             </div>
         );
     }

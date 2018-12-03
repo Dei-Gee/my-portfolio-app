@@ -1,0 +1,66 @@
+@font-face{
+    font-family: Trajan Pro;
+    src: url('./fonts/TrajanPro-Regular.ttf');
+}
+
+
+.contact-container{
+    margin: 0 auto;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/bg-contact.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact-container .hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 8.5%;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: auto;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.rowOne{
+    width: 100%;
+    position: relative;
+    left: 0;
+    font-size: 3.5vw;
+    color: black;
+    padding: 2%;
+    text-align: left;
+}
+
+.rowTwo{
+    width: 100%;
+    position: relative;
+    left: 0;
+    font-size: 1.75vw;
+    color: black;
+    text-align: left;
+}
+
+.rowTwo > span, #socialmedialink {
+    color: rgb(151,0,0);
+    text-decoration: none;
+}

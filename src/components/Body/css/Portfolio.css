@@ -1,0 +1,114 @@
+@font-face{
+    font-family: Trajan Pro;
+    src: url('./fonts/TrajanPro-Regular.ttf');
+}
+
+
+.portfolio-container{
+    margin: 0 auto;
+    margin-top: 0%;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/main-background-2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+
+.portfolio-container .hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 13.5%;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.design{
+    height: 50%;
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: left;
+}
+
+.design > h1{
+    color: rgb(153,0,0);
+    font-family: Trajan Pro;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.design > h1 > div.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 1.0rem solid transparent;
+    border-bottom: 1.0rem solid transparent;
+    border-left: 1.0rem solid rgb(153,0,0);
+    border-right: 1.0rem solid transparent;
+    position: relative;
+    bottom: 0;
+    left: 1.0rem;
+  }
+
+  .design > h1:hover > div.arrow-right {
+      left: 1.3rem;
+      transition: 300ms;
+  }
+
+.development{
+    height: 50%;
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: left;
+}
+
+.development > h1{
+    color: rgb(153,0,0);
+    font-family: Trajan Pro;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.development > h1 > div.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 1.0rem solid transparent;
+    border-bottom: 1.0rem solid transparent;
+    border-left: 1.0rem solid rgb(153,0,0);
+    border-right: 1.0rem solid transparent;
+    position: relative;
+    top: 0;
+    left: 1.0rem;
+}
+
+.development > h1:hover > div.arrow-right {
+    left: 1.3rem;
+    transition: 300ms;
+}
+
+.development > h1:hover {
+    transition: 100ms;
+}
+
