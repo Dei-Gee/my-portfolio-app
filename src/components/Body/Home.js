@@ -14,7 +14,7 @@ class Home extends Component {
                         <span>Vancouver Based Graphic Designer and Web Developer. <NavLink id="knowmore" to="/about">Know more.</NavLink></span>
                     </div>
                 </div>
-
+                
                 <div id="loadingScreen" className="loading-screen">
                     <div className="sk-cube-grid">
                         <div className="sk-cube sk-cube1"></div>

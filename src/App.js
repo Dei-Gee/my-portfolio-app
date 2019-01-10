@@ -8,6 +8,8 @@ import Home from './components/Body/Home';
 import About from './components/Body/About';
 import Portfolio from './components/Body/Portfolio';
 import Contact from './components/Body/Contact';
+import Design from './components/Body/Design';
+import Development from './components/Body/Development';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
@@ -41,6 +43,8 @@ class App extends Component {
                 <Route path="/about" component={About} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/design" component={Design} />
+                <Route path="/development" component={Development} />
               </Switch>
             </div>
 
